@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>nav Bar</title>
+</head>
+<body>
+    <div class="navbar">
+        <p class="logo">Atanu Mondal</p>
+        <div class="menu">
+            <span class="menu-icon" onclick="myFunction()">&#9776;</span>
+            <ul id="showmenu">
+                
+                <li>Home</li>
+                <li>Services</li>
+                <li>Blogs</li>
+                <li>About</li>
+                <li>Contact</li>
+            </ul>
+        </div>
+      
+    </div>
+
+
+
+
+
+    <script>
+        function myFunction(){
+            var x = document.getElementById("showmenu");
+            if(x.style.display == "block"){
+                x.style.display = "none";
+            }else{
+                x.style.display= "block";
+            }
+        }
+    </script>
+</body>
+</html>

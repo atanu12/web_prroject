@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up Form</title>
+
+    <style>
+        body{
+            background-color: cyan;
+        
+        }
+
+        .signup{
+            margin: 0 auto;
+        }
+        form{
+            background-color: white;
+            width: 300px;
+            padding: 20px 20px;
+            margin: 10px auto;
+        }
+        label,input,select{
+            margin: 10px;
+            font-size: 20px;
+        }
+        textarea{
+            width: 270px;
+        }
+        h1{
+            text-align: center;
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="signup">
+        <form class="froms_sighup">
+            <h1>Sign up</h1>
+            <label >Full Name :</label><br>
+            <input type="text" name="full-name"> <br>
+
+            <!-- email -->
+
+            <label>Email:</label> <br>
+            <input type="email" name="email" id=""> <br>
+
+            <!-- password -->
+            <label>password</label><br>
+            <input type="password" name="password"><br>
+
+            <label>Confirm password</label><br>
+            <input type="password" name="confirm-password"><br>
+
+            <input type="radio" name="male" id=""> male
+            <input type="radio" name="female" id=""> female</input>
+            <input type="radio" name="other" id=""> other</input><br>
+
+            <select name="question" id="">
+                <option value="question1">what is your pet name</option>
+                <option value="question2">what is your school name</option>
+                <option value="question1">what is your fav subject</option>
+                <option value="question1">what is your fav code editor</option>
+            </select><br><br>
+
+            <!-- text area -->
+            <textarea name="message" id="" cols="30" rows="10"></textarea> <br>
+
+            <!-- check box -->
+            <input type="checkbox" name="terms-conditpn" id=""> I agree and acept the conditions </input> <br>
+
+            <!-- submit -->
+            <input type="submit" name="submit" value="Regester">
+           
+        </form>
+    </div>
+</body>
+</html>

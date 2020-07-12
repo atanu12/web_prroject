@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Responsive Nav Bar</title>
+</head>
+<body>
+    
+    <div class="main-nav">
+        <p class="icon">Atanu Mondal</p>
+        <div class="nav-menu">
+            <span class="burger" onclick="myFunction()">&#9776;</span>
+            <ul id="show-menu">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">contact</a></li>
+            </ul>
+        </div>
+    </div>
+
+
+
+    <script>
+        function myFunction(){
+            var x = document.getElementById("show-menu")
+
+            if (x.style.display == "block") {
+                x.style.display ="none"
+            }else{
+                x.style.display = "block"
+            }
+            
+        }
+    </script>
+</body>
+</html>

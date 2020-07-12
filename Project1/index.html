@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food cort</title>
+
+    <style>
+        body{
+            margin: 0;
+        }
+        #topbar{
+            background-color: aquamarine;
+            padding: 10px;
+            text-align: center;
+        }
+        .menu{
+            font-size: 20px;
+            padding: 20px ;
+            text-transform: uppercase;
+        }
+        .food{
+            padding: 10px 20px;
+        }
+        .food_head >h4{
+            font-size: 25px;
+        }
+    
+        .food_img>div>img{
+            width: 50%;
+        }
+        .food_wrapper{
+            text-align: center;
+        }
+
+    </style>
+</head>
+<body>
+   <div id="topbar">
+       <span class="menu">index</span>
+       <span class="menu">Food</span>
+       <span class="menu">About</span>
+   </div> 
+
+   <!-- main content -->
+
+   <div class="food">
+       <div class="food_head">
+           <h4>Top 5 Favroute Foods</h4>
+       </div>
+
+       <div class="food_list">
+           <ul>
+               <li><a href="#french">Egg's</a></li>
+               <li><a href="#pizza">Pizza</a></li>
+               <li><a href="#burgger">Burger</a></li>
+               <li><a href="#tanduri">Tanduri</a></li>
+           </ul>
+       </div>
+   </div>
+
+   <div class="food_img">
+      
+       <div id="french" class="food_wrapper">
+           <img src="https://images.pexels.com/photos/793785/pexels-photo-793785.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="Egg's">
+           <br>
+           <p>Egg</p>
+           <br>
+       </div>
+       <div id="pizza" class="food_wrapper">
+           <img src="https://images.pexels.com/photos/803290/pexels-photo-803290.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="">
+           <br>
+           <p>Pizza</p>
+           <br>
+       </div>
+       <div id="burgger" class="food_wrapper">
+           <img src="https://images.pexels.com/photos/1639562/pexels-photo-1639562.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940/" alt="burger">
+           <br>
+           <p>Burgger</p>
+           <br>
+       </div>
+       <div id="tanduri" class="food_wrapper">
+           <img src="https://images.pexels.com/photos/1482803/pexels-photo-1482803.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="Tanduri Chicken">
+           <br>
+           <p>Tanduri Chicken</p>
+           <br>
+       </div>
+   </div>
+</body>
+</html>

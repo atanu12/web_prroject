@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.img-overlay{
+    background-color: skyblue;
+    background-position: cover;
+    /* height: 70px; */
+    margin-top: 50px;
+    margin-left: 20px;
+    width: 31%;
+}
+.img-main{
+    position: relative;
+    top: 20px;
+    left: 20px;
+}

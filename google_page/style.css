@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+
+}
+.menu-nav{
+    margin: 10px 20px;
+   
+    text-align: right;
+    list-style: none;
+
+}
+ul>li{
+    list-style: none;
+    display: inline;
+    margin-right: 10px;
+}
+ul>li>a{
+    font-size: 13px;
+    color: rgba(0, 0, 0, 0.87);
+    text-align: center;
+}
+
+.nav-hed{
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+/* pic */
+.my-pic{
+    width: 32px;
+height: 32px;
+
+}
