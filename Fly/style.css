@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.flyrocket{
+    background: url('https://cdn.slashgear.com/wp-content/uploads/2020/04/star-wars-backgrounds-25.jpg');
+    background-size: cover;
+    height: 100vh;
+   
+}
+img{
+    position: absolute;
+    bottom: 35px;
+    left: 25%;
+    transform: translate(10%,0);
+    animation: fly 5s ease-in infinite;
+}
+
+/* animation */
+@keyframes fly{
+    0%{
+       transform: translate(10%,0);
+    }
+    100%{
+        transform: translate(10%,-100vh);
+    }
+}
