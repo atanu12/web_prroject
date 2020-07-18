@@ -22,17 +22,17 @@ body{
 }
 
 /* media query */
-@media (max-width :768px){
+@media (max-width:768px){
     .poster{
         grid-template-columns: auto auto auto;
     }
 }
-@media (max-width :450px){
+@media (max-width:450px){
     .poster{
         grid-template-columns: auto auto ;
     }
 }
-@media (max-width :370px){
+@media (max-width:370px){
     .poster{
         grid-template-columns: auto;
     }
